@@ -5,15 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Términos y Condiciones | Libera tu Luz Interior</title>
     <meta name="robots" content="noindex, follow">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap">
-    <link rel="stylesheet" href="styles.css?v=3">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/Logo.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <!-- ⬇️ CORREGIDO: Apunta a tus CSS modulares -->
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/sections.css">
 </head>
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar">
+    <nav class="navbar-custom fixed-top">
         <div class="container nav-content">
             <a href="index.html" class="logo-link">
-                <img src="assets/Logo.png" alt="Libera tu Luz Interior" class="logo-nav">
+                <img src="assets/img/Logo.png" alt="Libera tu Luz Interior" class="logo-nav">
             </a>
             <a href="index.html" class="btn-nav-cta">Volver al inicio</a>
         </div>
@@ -127,67 +141,5 @@
             <p class="copyright">&copy; 2025 Libera tu Luz Interior - Todos los derechos reservados</p>
         </div>
     </footer>
-
-    <style>
-        .legal-page {
-            padding: 120px 20px 80px;
-            background: var(--warm-white);
-        }
-        .legal-page h1 {
-            font-size: 2.5rem;
-            color: var(--dark-gold);
-            margin-bottom: 10px;
-            text-align: center;
-        }
-        .legal-updated {
-            text-align: center;
-            color: var(--accent-bronze);
-            font-size: 0.9rem;
-            margin-bottom: 40px;
-        }
-        .legal-content {
-            max-width: 900px;
-            margin: 0 auto;
-            background: white;
-            padding: 40px;
-            border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-        }
-        .legal-content h2 {
-            color: var(--dark-gold);
-            font-size: 1.5rem;
-            margin: 30px 0 15px;
-        }
-        .legal-content h2:first-of-type {
-            margin-top: 0;
-        }
-        .legal-content p, .legal-content li {
-            color: var(--dark-text);
-            line-height: 1.8;
-            margin-bottom: 15px;
-        }
-        .legal-content ul {
-            padding-left: 30px;
-        }
-        .legal-content a {
-            color: var(--primary-gold);
-            text-decoration: none;
-        }
-        .legal-content a:hover {
-            text-decoration: underline;
-        }
-        .legal-footer {
-            text-align: center;
-            margin-top: 40px;
-        }
-        .legal-footer a {
-            color: var(--primary-gold);
-            text-decoration: none;
-            font-weight: 600;
-        }
-        .legal-footer a:hover {
-            text-decoration: underline;
-        }
-    </style>
 </body>
 </html>

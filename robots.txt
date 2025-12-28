@@ -2,12 +2,12 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://liberatuluzinterior.com/sitemap.xml
+Sitemap: https://leandrocarpio.github.io/Libera-tu-luz-interior-web/sitemap.xml
 
-# Bloquear archivos innecesarios
-Disallow: /assets/testimonios/
+# Bloquear archivos sensibles
+Disallow: /assets/img/testimonios/
 Disallow: /*.php$
 
-# Permitir rastreo de CSS y JS
-Allow: /styles.css
-Allow: /script.js
+# Permitir rastreo de CSS y JS (estructura modular)
+Allow: /assets/css/
+Allow: /assets/js/

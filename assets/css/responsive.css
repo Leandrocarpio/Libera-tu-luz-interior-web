@@ -1,0 +1,185 @@
+/* =====================================================
+   RESPONSIVE.CSS - Media Queries
+   ===================================================== */
+
+/* =====================================================
+   TABLET (≤ 991px)
+   ===================================================== */
+
+@media (max-width: 991px) {
+    /* Testimonios: Ocultar flechas externas */
+    #testimoniosCarousel {
+        padding: 0; /* Sin espacio para flechas */
+    }
+    
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none; /* Solo swipe en tablet */
+    }
+    
+    .carousel-indicators {
+        bottom: -40px;
+    }
+}
+
+/* =====================================================
+   MOBILE (≤ 768px)
+   ===================================================== */
+
+@media (max-width: 768px) {
+    /* Hero */
+    .hero {
+        min-height: 85vh;
+        background-attachment: scroll;
+        padding: 100px 20px 60px;
+    }
+    
+    .hero-benefits-quick {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    /* Secciones */
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    /* Ebook */
+    .ebook-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .ebook-mockup img {
+        max-width: 250px;
+    }
+    
+    /* Para quién */
+    .para-quien-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Oferta */
+    .oferta-valor-total {
+        padding: 25px 20px;
+    }
+    
+    .valor-breakdown {
+        font-size: 0.95rem;
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+    }
+    
+    .valor-total-sum {
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .precio-box {
+        padding: 40px 20px;
+    }
+    
+    .descuento-badge {
+        padding: 12px 30px;
+        top: -20px;
+    }
+    
+    .badge-porcentaje {
+        font-size: 2rem;
+    }
+    
+    .badge-texto {
+        font-size: 0.95rem;
+    }
+    
+    .precio-final {
+        font-size: 3.5rem;
+    }
+    
+    /* CTA Final */
+    .cta-final h2 {
+        font-size: 2rem;
+    }
+    
+    .cta-quote {
+        font-size: 1.1rem;
+    }
+    
+    /* Bonos */
+    .bonos-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Formulario */
+    .formulario-wrapper {
+        padding: 30px 20px;
+    }
+    
+    /* Testimonios: Layout vertical */
+    .testimonio-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    .testimonio-left {
+        flex-direction: column;
+    }
+}
+
+/* =====================================================
+   MOBILE PEQUEÑO (≤ 480px)
+   ===================================================== */
+
+@media (max-width: 480px) {
+    /* Navbar */
+    .logo-nav {
+        width: 70px;
+    }
+    
+    .btn-nav-cta {
+        padding: 10px 20px;
+        font-size: 0.85rem;
+    }
+    
+    /* Hero */
+    .hero-title-main {
+        font-size: 1.8rem;
+    }
+    
+    /* Timer */
+    .timer {
+        padding: 12px 20px;
+    }
+    
+    .timer-numbers {
+        font-size: 1.5rem;
+    }
+    
+    /* Precio */
+    .precio-box {
+        padding: 35px 15px;
+    }
+    
+    .descuento-badge {
+        padding: 10px 20px;
+    }
+    
+    .badge-porcentaje {
+        font-size: 1.8rem;
+    }
+    
+    .precio-final {
+        font-size: 2.8rem;
+    }
+    
+    .valor-total-numero {
+        font-size: 1.5rem;
+    }
+    
+    /* Footer */
+    .social-link {
+        font-size: 1.6rem;
+    }
+}
