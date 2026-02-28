@@ -1,0 +1,272 @@
+/* =====================================================
+   HERO-VISUAL.CSS - Hero Product Page Style
+   ===================================================== */
+
+.hero-visual {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #FFF8E7 0%, #FFFEF9 100%);
+    padding: 120px 20px 80px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 60px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* =====================================================
+   MOCKUP EBOOK (Izquierda)
+   ===================================================== */
+
+.hero-mockup {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mockup-img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    filter: drop-shadow(0 20px 60px rgba(201, 169, 97, 0.4));
+    transition: transform 0.4s ease;
+}
+
+.mockup-img:hover {
+    transform: scale(1.05) translateY(-10px);
+}
+
+/* =====================================================
+   INFO PRODUCTO (Derecha)
+   ===================================================== */
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.hero-title {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: 900;
+    color: var(--dark-gold);
+    line-height: 1.2;
+    margin: 0;
+}
+
+.hero-promise {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    color: var(--dark-text);
+    margin: 0;
+}
+
+.hero-promise strong {
+    color: var(--primary-gold);
+    font-weight: 700;
+}
+
+/* =====================================================
+   PRECIO
+   ===================================================== */
+
+.hero-precio {
+    background: white;
+    padding: 25px;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    border: 2px solid var(--primary-gold);
+}
+
+.precio-tachado {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.precio-antes-label {
+    font-size: 0.95rem;
+    color: var(--accent-bronze);
+}
+
+.precio-antes {
+    font-size: 1.4rem;
+    color: var(--accent-bronze);
+    text-decoration: line-through;
+    font-weight: 600;
+}
+
+.precio-ahora {
+    display: flex;
+    align-items: baseline;
+    gap: 15px;
+}
+
+.precio-ahora-label {
+    font-size: 1.1rem;
+    color: var(--dark-text);
+    font-weight: 600;
+}
+
+.precio-final {
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: var(--primary-gold);
+    line-height: 1;
+}
+
+.descuento-badge {
+    background: linear-gradient(135deg, #E53935 0%, #C62828 100%);
+    color: white;
+    padding: 8px 20px;
+    border-radius: var(--radius-full);
+    font-size: 1.1rem;
+    font-weight: 700;
+    box-shadow: 0 4px 15px rgba(229, 57, 53, 0.4);
+}
+
+/* =====================================================
+   TIMER HERO
+   ===================================================== */
+
+.hero-timer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: rgba(201, 169, 97, 0.1);
+    padding: 15px 20px;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--primary-gold);
+}
+
+.hero-timer i {
+    font-size: 1.4rem;
+    color: var(--dolor-red);
+}
+
+.hero-timer span {
+    font-size: 0.95rem;
+    color: var(--dark-text);
+    font-weight: 600;
+}
+
+.timer-numbers {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: var(--dolor-red);
+    font-family: 'Courier New', monospace;
+    letter-spacing: 2px;
+}
+
+/* =====================================================
+   CTA HERO
+   ===================================================== */
+
+.cta-hero {
+    width: 100%;
+    font-size: 1.3rem;
+    padding: 22px 40px;
+    background: linear-gradient(135deg, #E53935 0%, #C62828 100%);
+    box-shadow: 0 8px 24px rgba(229, 57, 53, 0.4);
+}
+
+.cta-hero:hover {
+    background: linear-gradient(135deg, #C62828 0%, #B71C1C 100%);
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(229, 57, 53, 0.5);
+}
+
+/* =====================================================
+   BENEFICIOS RÁPIDOS
+   ===================================================== */
+
+.hero-beneficios-quick {
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.quick-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.95rem;
+    color: var(--dark-text);
+}
+
+.quick-item i {
+    color: var(--beneficio-green);
+    font-size: 1.3rem;
+}
+
+/* =====================================================
+   RESPONSIVE
+   ===================================================== */
+
+@media (max-width: 991px) {
+    .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .hero-mockup {
+        order: 2;
+    }
+    
+    .hero-info {
+        order: 1;
+        text-align: center;
+    }
+    
+    .hero-precio {
+        padding: 20px;
+    }
+    
+    .precio-final {
+        font-size: 2.8rem;
+    }
+    
+    .hero-beneficios-quick {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-visual {
+        padding: 100px 15px 60px;
+    }
+    
+    .hero-title {
+        font-size: 1.8rem;
+    }
+    
+    .hero-promise {
+        font-size: 1rem;
+    }
+    
+    .precio-final {
+        font-size: 2.5rem;
+    }
+    
+    .descuento-badge {
+        padding: 6px 15px;
+        font-size: 0.95rem;
+    }
+    
+    .timer-numbers {
+        font-size: 1.2rem;
+    }
+    
+    .hero-beneficios-quick {
+        flex-direction: column;
+        gap: 15px;
+    }
+}

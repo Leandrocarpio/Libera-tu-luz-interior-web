@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Libera tu Luz Interior | Ebook de Transformación Personal desde el SER</title>
+    <meta name="description" content="Entendé por qué tu cuerpo reacciona como lo hace (dolores, ansiedad, cansancio) y cómo iniciar un cambio real desde el SER. Ebook + 2 bonos exclusivos. Garantía 30 días.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/Logo.png">
+    
+    <!-- Preconnect para recursos externos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+
+    <!-- Estilos Modulares -->
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/hero-visual.css">
+    <link rel="stylesheet" href="assets/css/sections-visual.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar-custom fixed-top">
+        <div class="container nav-content">
+            <a href="#home" class="logo-link">
+                <img src="assets/img/Logo.png" alt="Libera tu Luz Interior" class="logo-nav">
+            </a>
+            
+            <!-- Menú Desktop -->
+            <div class="nav-desktop">
+                <a href="#home" class="nav-link">Inicio</a>
+                <a href="#garantia" class="nav-link">Garantía</a>
+                <a href="#testimonios" class="nav-link">Testimonios</a>
+                <a href="#oferta" class="nav-link">Oferta</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="#oferta" class="btn-nav-cta">Comenzar ahora</a>
+            </div>
+            
+            <!-- Hamburguesa Mobile -->
+            <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        
+        <!-- Menú Mobile Overlay -->
+        <div class="mobile-menu">
+            <div class="mobile-menu-content">
+                <a href="#home" class="mobile-menu-link">Inicio</a>
+                <a href="#garantia" class="mobile-menu-link">Garantía</a>
+                <a href="#testimonios" class="mobile-menu-link">Testimonios</a>
+                <a href="#oferta" class="mobile-menu-link">Oferta</a>
+                <a href="#faq" class="mobile-menu-link">FAQ</a>
+                <a href="#oferta" class="btn-nav-cta mobile-cta">Comenzar ahora</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO VISUAL -->
+    <section id="home" class="hero-visual">
+        <div class="container">
+            <div class="hero-grid">
+                <!-- Mockup Ebook (Izquierda) -->
+                <div class="hero-mockup fade-in">
+                    <img src="assets/img/mockup hero.png" 
+                         alt="Ebook Libera tu Luz Interior" 
+                         class="mockup-img">
+                </div>
+                
+                <!-- Info Producto (Derecha) -->
+                <div class="hero-info fade-in">
+                    <h1 class="hero-title">Dejá de Pelear con tu Cuerpo<br>y Volvé a Sentirte Vivo</h1>
+                    
+                    <p class="hero-promise">
+                        <strong>Entendé por qué tu cuerpo reacciona como lo hace</strong> (dolores, ansiedad, cansancio) 
+                        y <strong>cómo iniciar un cambio real desde el SER</strong> que se activa mientras leés.
+                    </p>
+                    
+                    <div class="hero-precio">
+                        <div class="precio-tachado">
+                            <span class="precio-antes-label">Antes:</span>
+                            <span class="precio-antes">$60.000</span>
+                        </div>
+                        <div class="precio-ahora">
+                            <span class="precio-ahora-label">HOY:</span>
+                            <span class="precio-final">$14.999</span>
+                            <span class="descuento-badge">75% OFF</span>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-timer">
+                        <i class="bi bi-clock-fill"></i>
+                        <span>Oferta termina en:</span>
+                        <div class="timer-numbers" id="countdown-hero">23:59:59</div>
+                    </div>
+                    
+                    <a href="#oferta" class="cta-button cta-hero">Sí, quiero mi libro</a>
+                    
+                    <div class="hero-beneficios-quick">
+                        <div class="quick-item">
+                            <i class="bi bi-download"></i>
+                            <span>Entrega inmediata</span>
+                        </div>
+                        <div class="quick-item">
+                            <i class="bi bi-shield-check"></i>
+                            <span>Garantía 30 días</span>
+                        </div>
+                        <div class="quick-item">
+                            <i class="bi bi-gift"></i>
+                            <span>2 bonos GRATIS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GARANTÍA 30 DÍAS (destacada) -->
+    <section id="garantia" class="garantia-destacada">
+        <div class="container">
+            <div class="garantia-box fade-in">
+                <div class="garantia-badge">
+                    <i class="bi bi-shield-fill-check"></i>
+                </div>
+                <div class="garantia-content">
+                    <h3>Garantía de Confianza de 30 Días</h3>
+                    <p>Tenés 30 días para explorar el libro con total tranquilidad. Si sentís que no te ayudó a entender mejor por qué tu cuerpo reacciona así, <strong>te devolvemos el 100% de tu dinero.</strong></p>
+                    <p class="garantia-destacado">Sin preguntas incómodas. Sin procesos complicados. Sin letras pequeñas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DOLORES -->
+    <section class="dolores-visual">
+        <div class="container">
+            <h2 class="section-title fade-in">¿Te sentís identificado/a con esto?</h2>
+            
+            <div class="dolores-grid">
+                <!-- Dolor 1 -->
+                <div class="dolor-card fade-in">
+                    <img src="assets/img/dolor de panza.png" 
+                         alt="Dolores físicos" class="dolor-img" loading="lazy">
+                    <div class="dolor-overlay">
+                        <h3>Dolores de panza antes de salir</h3>
+                        <p>Descomposturas en momentos incómodos, ansiedad física que no se va</p>
+                    </div>
+                </div>
+                
+                <!-- Dolor 2 -->
+                <div class="dolor-card fade-in">
+                    <img src="assets/img/vivir en automático.png" 
+                         alt="Vivir en automático" class="dolor-img" loading="lazy">
+                    <div class="dolor-overlay">
+                        <h3>Vivís en automático</h3>
+                        <p>Tu vida no se siente tuya, repetís rutinas, algo interno no encuentra lugar</p>
+                    </div>
+                </div>
+                
+                <!-- Dolor 3 -->
+                <div class="dolor-card fade-in">
+                    <img src="assets/img/mente.png" 
+                         alt="Mente que no para" class="dolor-img" loading="lazy">
+                    <div class="dolor-overlay">
+                        <h3>Tu mente nunca se apaga</h3>
+                        <p>Siempre anticipando, controlando, preocupándote. Cansancio mental constante</p>
+                    </div>
+                </div>
+                
+                <!-- Dolor 4 -->
+                <div class="dolor-card fade-in">
+                    <img src="assets/img/vacio.png" 
+                         alt="Vacío existencial" class="dolor-img" loading="lazy">
+                    <div class="dolor-overlay">
+                        <h3>Sentís que algo falta</h3>
+                        <p>Un vacío que no se llena con distracciones. Cansancio existencial, no solo físico</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ANTES/DESPUÉS (Visual potente) -->
+    <section class="antes-despues">
+        <div class="container">
+            <h2 class="section-title fade-in">El Cambio es Posible</h2>
+            <p class="section-subtitle fade-in">No es mágico. No es rápido. Pero es profundamente real.</p>
+            
+            <div class="comparacion-grid">
+                <!-- ANTES -->
+                <div class="comparacion-card fade-in">
+                    <div class="comparacion-img-wrapper">
+                        <img src="assets/img/antes.png" 
+                             alt="Antes: viviendo en dolor" class="comparacion-img">
+                    </div>
+                    <div class="comparacion-content antes">
+                        <span class="comparacion-label">ANTES</span>
+                        <h3>Viviendo en automático</h3>
+                        <p>Sobreviviendo, no viviendo. Desconectado del cuerpo, con miedo constante.</p>
+                    </div>
+                </div>
+                
+                <!-- Flecha -->
+                <div class="comparacion-flecha fade-in">
+                    <i class="bi bi-arrow-right-circle-fill"></i>
+                </div>
+                
+                <!-- DESPUÉS -->
+                <div class="comparacion-card fade-in">
+                    <div class="comparacion-img-wrapper">
+                        <img src="assets/img/despúes.png" 
+                             alt="Después: habitando la vida" class="comparacion-img">
+                    </div>
+                    <div class="comparacion-content despues">
+                        <span class="comparacion-label">DESPUÉS</span>
+                        <h3>Habitando mi vida con conciencia</h3>
+                        <p>Presente, conectado, viviendo desde el SER. No perfecto, pero real.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="puente-texto fade-in">
+                <p><strong>Este libro es el puente entre estos dos lugares.</strong></p>
+                <p>No promete salvarte. Promete acompañarte a comprender y a elegir conscientemente.</p>
+                <a href="#oferta" class="cta-button">Quiero cruzar el puente</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CAPÍTULOS (Visual con íconos) -->
+    <section class="capitulos-visual">
+        <div class="container">
+            <h2 class="section-title fade-in">8 Capítulos para Volver al SER</h2>
+            <p class="section-subtitle fade-in">Un camino honesto, sin teorías vacías ni promesas mágicas</p>
+            
+            <div class="capitulos-grid">
+                <div class="capitulo-card fade-in">
+                    <div class="capitulo-icono"><i class="bi bi-heart-pulse"></i></div>
+                    <h4>1. No estás roto</h4>
+                    <p>El error de creer que hay algo mal en vos</p>
+                </div>
+                
+                <div class="capitulo-card fade-in">
+                    <div class="capitulo-icono"><i class="bi bi-chat-heart"></i></div>
+                    <h4>2. El cuerpo como mensajero</h4>
+                    <p>Lo que tus síntomas vienen a decirte</p>
+                </div>
+                
+                <div class="capitulo-card fade-in">
+                    <div class="capitulo-icono"><i class="bi bi-diagram-3"></i></div>
+                    <h4>3. La raíz</h4>
+                    <p>Vivir desconectado de vos</p>
+                </div>
+                
+                <div class="capitulo-card fade-in">
+                    <div class="capitulo-icono"><i class="bi bi-lightning"></i></div>
+                    <h4>4. El punto de quiebre</h4>
+                    <p>Cuando ya no se puede seguir igual</p>
+                </div>
+                
+                <div class="capitulo-card fade-in">
+                    <div class="capitulo-icono"><i class="bi bi-sunrise"></i></div>
+                    <h4>5. Volver al SER</h4>
+                    <p>El regreso a casa, a tu esencia</p>
+                </div>
+                
+                <div class="capitulo-card fade-in">
+                    <div class="capitulo-icono"><i class="bi bi-hand-index-thumb"></i></div>
+                    <h4>6. Fe vivida, no creída</h4>
+                    <p>La presencia que sostiene</p>
+                </div>
+                
+                <div class="capitulo-card fade-in">
+                    <div class="capitulo-icono"><i class="bi bi-bullseye"></i></div>
+                    <h4>7. Responsabilidad y elección</h4>
+                    <p>Dejar de ser víctima</p>
+                </div>
+                
+                <div class="capitulo-card fade-in">
+                    <div class="capitulo-icono"><i class="bi bi-star"></i></div>
+                    <h4>8. Integración</h4>
+                    <p>Vivir desde adentro hacia afuera</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BONOS (Visual con mockups) -->
+    <section class="bonos-visual">
+        <div class="container">
+            <div class="bonos-intro fade-in">
+                <h2 class="section-title">Además, Recibís 2 Bonos Exclusivos</h2>
+                <p class="section-subtitle">Herramientas complementarias para acompañar tu proceso</p>
+                <div class="bonos-urgencia">
+                    <i class="bi bi-gift-fill"></i>
+                    <span>Los bonos se incluyen GRATIS solo si comprás HOY</span>
+                    <div class="timer-inline">
+                        <i class="bi bi-clock"></i>
+                        <span id="countdown-bonos">23:59:59</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bonos-grid">
+                <!-- Bono 1 -->
+                <div class="bono-card fade-in">
+                    <div class="bono-mockup">
+                        <img src="assets/img/bono 1.png" 
+                             alt="Cuaderno de Trabajo" loading="lazy">
+                    </div>
+                    <div class="bono-content">
+                        <div class="bono-badge">BONO 1</div>
+                        <h3>Cuaderno de Trabajo<br>"Tu Regreso al SER"</h3>
+                        <p>Ejercicios prácticos basados en cada capítulo + check-ins semanales para seguir tu proceso</p>
+                        <div class="bono-valor">
+                            <span class="valor-label">Valor:</span>
+                            <span class="valor-numero">$14.000</span>
+                            <span class="valor-gratis">GRATIS HOY</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Bono 2 -->
+                <div class="bono-card fade-in featured">
+                    <div class="bono-mockup">
+                        <img src="assets/img/bono 2.png" 
+                             alt="Rutina 21 Días" loading="lazy">
+                    </div>
+                    <div class="bono-content">
+                        <div class="bono-badge">BONO 2</div>
+                        <h3>Rutina de 21 Días<br>"Del Miedo a tu Luz"</h3>
+                        <p>Plan diario con micro-prácticas de 5-10 min + checklist imprimible para marcar tu progreso</p>
+                        <div class="bono-valor">
+                            <span class="valor-label">Valor:</span>
+                            <span class="valor-numero">$16.000</span>
+                            <span class="valor-gratis">GRATIS HOY</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VALOR TOTAL + OFERTA -->
+    <section id="oferta" class="oferta-final">
+        <div class="container">
+            <h2 class="section-title fade-in">Oferta Completa de Hoy</h2>
+            
+            <div class="valor-desglose fade-in">
+                <h3>Lo que recibís:</h3>
+                <div class="valor-item">
+                    <span class="item-icono"><i class="bi bi-book"></i></span>
+                    <span class="item-nombre">Ebook "Libera tu Luz Interior" (8 capítulos)</span>
+                    <span class="item-valor">$30.000</span>
+                </div>
+                <div class="valor-item">
+                    <span class="item-icono"><i class="bi bi-journal-text"></i></span>
+                    <span class="item-nombre">Cuaderno de Trabajo "Tu Regreso al SER"</span>
+                    <span class="item-valor">$14.000</span>
+                </div>
+                <div class="valor-item">
+                    <span class="item-icono"><i class="bi bi-calendar-check"></i></span>
+                    <span class="item-nombre">Rutina 21 Días "Del Miedo a tu Luz"</span>
+                    <span class="item-valor">$16.000</span>
+                </div>
+                <div class="valor-separador"></div>
+                <div class="valor-total-row">
+                    <span class="total-label">VALOR TOTAL:</span>
+                    <span class="total-tachado">$60.000</span>
+                </div>
+            </div>
+            
+            <div class="precio-box-final fade-in">
+                <div class="descuento-badge-grande">
+                    <span class="badge-porcentaje">75%</span>
+                    <span class="badge-texto">DESCUENTO</span>
+                </div>
+                
+                <p class="precio-texto">Precio HOY:</p>
+                <p class="precio-final-grande">$14.999</p>
+                
+                <div class="timer-grande">
+                    <i class="bi bi-clock-fill"></i>
+                    <span>Oferta termina en:</span>
+                    <div class="timer-numbers" id="countdown">23:59:59</div>
+                </div>
+                
+                <a href="#" class="cta-button cta-oferta-final">Sí, quiero transformar mi vida AHORA</a>
+                
+                <div class="sellos-confianza">
+                    <div class="sello">
+                        <img src="assets/img/MP_RGB_HANDSHAKE_pluma_horizontal.png" alt="Mercado Pago" class="mp-badge">
+                        <span>Pago 100% Seguro</span>
+                    </div>
+                    <div class="sello">
+                        <i class="bi bi-shield-check"></i>
+                        <span>Protección SSL</span>
+                    </div>
+                    <div class="sello">
+                        <i class="bi bi-lightning-charge"></i>
+                        <span>Entrega Inmediata</span>
+                    </div>
+                    <div class="sello">
+                        <i class="bi bi-award"></i>
+                        <span>Garantía 30 días</span>
+                    </div>
+                </div>
+                
+                <p class="oferta-garantia">
+                    <i class="bi bi-shield-fill-check"></i> Garantía de devolución del 100% si no sentís que el ebook te aportó valor
+                </p>
+            </div>
+        </div>
+    </section>
+
+<!-- TESTIMONIOS CON BOOTSTRAP CAROUSEL -->
+<section id="testimonios" class="testimonios-visual">
+    <div class="container">
+        <h2 class="section-title fade-in">Personas que Eligieron Transformarse</h2>
+        <p class="section-subtitle fade-in">Historias reales de quienes atravesaron el proceso</p>
+        
+        <!-- Bootstrap Carousel -->
+        <div id="testimoniosCarousel" 
+             class="carousel slide carousel-testimonios" 
+             data-bs-ride="carousel" 
+             data-bs-interval="5000"
+             data-bs-pause="hover">
+            
+            <div class="carousel-inner">
+                <!-- Testimonio 1 -->
+                <div class="carousel-item active">
+                    <div class="testimonio-card-carousel">
+                        <div class="testimonio-header">
+                            <img src="https://images.unsplash.com/photo-1558898479-33c0057a5d12?q=80&w=870&auto=format&fit=crop" 
+                                 alt="María G." class="testimonio-avatar-small">
+                            <div class="testimonio-info">
+                                <div class="testimonio-estrellas">★★★★★</div>
+                                <span class="testimonio-verificado">
+                                    <i class="bi bi-patch-check-fill"></i> Verificado
+                                </span>
+                            </div>
+                        </div>
+                        <p class="testimonio-texto">"Hace 6 meses tenía ansiedad constante. Hoy entiendo a qué se debe y cómo puedo manejarlo, gracias a escucharme."</p>
+                        <p class="testimonio-nombre-final">— María G., 24 años</p>
+                    </div>
+                </div>
+                
+                <!-- Testimonio 2 -->
+                <div class="carousel-item">
+                    <div class="testimonio-card-carousel">
+                        <div class="testimonio-header">
+                            <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=580&auto=format&fit=crop" 
+                                 alt="Lucas M." class="testimonio-avatar-small">
+                            <div class="testimonio-info">
+                                <div class="testimonio-estrellas">★★★★★</div>
+                                <span class="testimonio-verificado">
+                                    <i class="bi bi-patch-check-fill"></i> Verificado
+                                </span>
+                            </div>
+                        </div>
+                        <p class="testimonio-texto">"Llevaba años con dolores de panza sin explicación alguna. Este libro me ayudó a entender que mi cuerpo me estaba diciendo algo que yo no estaba viendo."</p>
+                        <p class="testimonio-nombre-final">— Lucas M., 29 años</p>
+                    </div>
+                </div>
+                
+                <!-- Testimonio 3 -->
+                <div class="carousel-item">
+                    <div class="testimonio-card-carousel">
+                        <div class="testimonio-header">
+                            <img src="https://images.unsplash.com/photo-1520283818086-3f6dffb019c0?q=80&w=387&auto=format&fit=crop" 
+                                 alt="Carolina R." class="testimonio-avatar-small">
+                            <div class="testimonio-info">
+                                <div class="testimonio-estrellas">★★★★★</div>
+                                <span class="testimonio-verificado">
+                                    <i class="bi bi-patch-check-fill"></i> Verificado
+                                </span>
+                            </div>
+                        </div>
+                        <p class="testimonio-texto">"No es un libro más de autoayuda. Es honesto, crudo y te sentís guiada en cada paso, gracias."</p>
+                        <p class="testimonio-nombre-final">— Carolina R., 42 años</p>
+                    </div>
+                </div>
+                
+                <!-- Testimonio 4 -->
+                <div class="carousel-item">
+                    <div class="testimonio-card-carousel">
+                        <div class="testimonio-header">
+                            <img src="https://images.unsplash.com/photo-1636041246191-7a73c36ccbe7?q=80&w=464&auto=format&fit=crop" 
+                                 alt="Martín S." class="testimonio-avatar-small">
+                            <div class="testimonio-info">
+                                <div class="testimonio-estrellas">★★★★★</div>
+                                <span class="testimonio-verificado">
+                                    <i class="bi bi-patch-check-fill"></i> Verificado
+                                </span>
+                            </div>
+                        </div>
+                        <p class="testimonio-texto">"La rutina de 21 días me ayudó a sostener el proceso. Todo es constancia y honestidad con uno mismo."</p>
+                        <p class="testimonio-nombre-final">— Martín S., 38 años</p>
+                    </div>
+                </div>
+                
+                <!-- Testimonio 5 -->
+                <div class="carousel-item">
+                    <div class="testimonio-card-carousel">
+                        <div class="testimonio-header">
+                            <img src="https://images.unsplash.com/photo-1685903772095-f07172808761?q=80&w=387&auto=format&fit=crop" 
+                                 alt="Romina P." class="testimonio-avatar-small">
+                            <div class="testimonio-info">
+                                <div class="testimonio-estrellas">★★★★★</div>
+                                <span class="testimonio-verificado">
+                                    <i class="bi bi-patch-check-fill"></i> Verificado
+                                </span>
+                            </div>
+                        </div>
+                        <p class="testimonio-texto">"Estaba viviendo en automático y sin darme cuenta, este libro me devolvió la conexión con mi cuerpo y con mi vida."</p>
+                        <p class="testimonio-nombre-final">— Romina P., 31 años</p>
+                    </div>
+                </div>
+                
+                <!-- Testimonio 6 -->
+                <div class="carousel-item">
+                    <div class="testimonio-card-carousel">
+                        <div class="testimonio-header">
+                            <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=80&h=80&fit=crop" 
+                                 alt="Diego F." class="testimonio-avatar-small">
+                            <div class="testimonio-info">
+                                <div class="testimonio-estrellas">★★★★★</div>
+                                <span class="testimonio-verificado">
+                                    <i class="bi bi-patch-check-fill"></i> Verificado
+                                </span>
+                            </div>
+                        </div>
+                        <p class="testimonio-texto">"Dudé en comprarlo porque ya había probado de todo. Pero esto es real, sin promesas vacías y te llega al instante."</p>
+                        <p class="testimonio-nombre-final">— Diego F., 45 años</p>
+                    </div>
+                </div>
+
+                <!-- Testimonio 7 -->
+                <div class="carousel-item">
+                    <div class="testimonio-card-carousel">
+                        <div class="testimonio-header">
+                            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=80&h=80&fit=crop" 
+                                 alt="Sofía L." class="testimonio-avatar-small">
+                            <div class="testimonio-info">
+                                <div class="testimonio-estrellas">★★★★★</div>
+                                <span class="testimonio-verificado">
+                                    <i class="bi bi-patch-check-fill"></i> Verificado
+                                </span>
+                            </div>
+                        </div>
+                        <p class="testimonio-texto">"El cuaderno de trabajo me salvó. Poder escribir todo lo que iba sintiendo fue clave en mi proceso."</p>
+                        <p class="testimonio-nombre-final">— Sofía L., 27 años</p>
+                    </div>
+                </div>
+
+                <!-- Testimonio 8 -->
+                <div class="carousel-item">
+                    <div class="testimonio-card-carousel">
+                        <div class="testimonio-header">
+                            <img src="https://images.unsplash.com/photo-1674496967205-b4d95e0ddd38?q=80&w=382&auto=format&fit=crop" 
+                                 alt="Javier T." class="testimonio-avatar-small">
+                            <div class="testimonio-info">
+                                <div class="testimonio-estrellas">★★★★★</div>
+                                <span class="testimonio-verificado">
+                                    <i class="bi bi-patch-check-fill"></i> Verificado
+                                </span>
+                            </div>
+                        </div>
+                        <p class="testimonio-texto">"Finalmente entendí que no estaba loco. Mi cuerpo tenía razón todo el tiempo."</p>
+                        <p class="testimonio-nombre-final">— Javier T., 36 años</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Flechas fuera del contenido -->
+            <button class="carousel-control-prev carousel-control-custom" type="button" data-bs-target="#testimoniosCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next carousel-control-custom" type="button" data-bs-target="#testimoniosCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+            
+            <!-- Paginación con líneas -->
+            <div class="carousel-indicators carousel-indicators-custom">
+                <button type="button" data-bs-target="#testimoniosCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#testimoniosCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#testimoniosCarousel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#testimoniosCarousel" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#testimoniosCarousel" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#testimoniosCarousel" data-bs-slide-to="5"></button>
+                <button type="button" data-bs-target="#testimoniosCarousel" data-bs-slide-to="6"></button>
+                <button type="button" data-bs-target="#testimoniosCarousel" data-bs-slide-to="7"></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- FAQ -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2 class="section-title fade-in">Preguntas Frecuentes</h2>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>¿Cómo voy a recibir el ebook?</span>
+                        <span class="faq-icon">▼</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Inmediatamente después de tu compra recibirás el ebook y los 2 bonos por email en formato PDF. La entrega es automática e instantánea.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>¿Puedo leerlo en mi celular o tablet?</span>
+                        <span class="faq-icon">▼</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sí, el PDF se adapta perfectamente a cualquier dispositivo: celular, tablet, computadora o lector de ebooks.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>¿Qué pasa si no me gusta o no me sirve?</span>
+                        <span class="faq-icon">▼</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Tenés 30 días de garantía. Si sentís que el ebook no te aportó valor, te devolvemos el 100% de tu inversión sin preguntas.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>¿Es seguro comprar por esta página?</span>
+                        <span class="faq-icon">▼</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sí, el pago se procesa a través de Mercado Pago, una plataforma 100% segura y encriptada. Tus datos están protegidos.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>¿Los bonos también son digitales?</span>
+                        <span class="faq-icon">▼</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sí, ambos bonos (Cuaderno de Trabajo + Rutina 21 Días) son PDFs descargables que recibirás junto con el ebook.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>¿Este libro reemplaza la terapia?</span>
+                        <span class="faq-icon">▼</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No. Este libro tiene fines educativos y de acompañamiento. No sustituye el consejo médico, psicológico o terapéutico profesional.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="cta-final">
+        <div class="container">
+            <h2 class="fade-in">Tu Transformación Comienza Ahora</h2>
+            <p class="cta-quote fade-in">"Liberar tu luz interior no es convertirte en alguien nuevo,<br>es Ser lo que siempre fuiste."</p>
+            <a href="#oferta" class="cta-button fade-in">Comenzar mi transformación</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-social">
+                <a href="https://www.instagram.com/liberatuluzinterior/" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/liberatuluzinterior/" target="_blank" rel="noopener" class="social-link" aria-label="Facebook">
+                    <i class="bi bi-facebook"></i>
+                </a>
+            </div>
+
+            <a href="mailto:Liberatuluzinterior.guia@gmail.com" class="footer-email">
+                <i class="bi bi-envelope"></i>
+                <span>Liberatuluzinterior.guia@gmail.com</span>
+            </a>
+            
+            <div class="footer-links">
+                <a href="politica-privacidad.html">Política de Privacidad</a>
+                <span>|</span>
+                <a href="terminos-condiciones.html">Términos y Condiciones</a>
+            </div>
+            
+            <p class="copyright">&copy; 2025 Libera tu Luz Interior - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <!-- CTA FLOTANTE (Mobile/Desktop) -->
+    <div class="cta-flotante" id="cta-flotante">
+        <div class="cta-flotante-content">
+            <span class="cta-flotante-texto">Oferta 75% OFF</span>
+            <a href="#oferta" class="cta-flotante-btn">Quiero mi libro</a>
+        </div>
+    </div>
+
+    <!-- Swiper JS (Carousel) -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>  
+    
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Scripts del Proyecto -->
+    <script src="assets/js/timer.js"></script>
+    <script src="assets/js/ui.js"></script>
+</body>
+</html>
