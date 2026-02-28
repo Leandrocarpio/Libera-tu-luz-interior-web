@@ -1,6 +1,6 @@
-# ✨ Libera tu Luz Interior - Landing Page de Alta Conversión
+# 🌟 Libera tu Luz Interior - Landing Page Ebook
 
-> Landing page profesional para venta de ebook de transformación personal. Arquitectura CSS modular, diseño visual 80/20, optimizada para conversión.
+> Landing page profesional para venta de ebook de transformación personal desde el SER. Enfocada en conversión y desarrollo espiritual.
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
@@ -10,434 +10,367 @@
 
 ---
 
-## 🚀 Demo en Vivo
+## 🚀 Ver la Demo Online
 
-**[Ver Demo →](https://leandrocarpio.github.io/Libera-tu-luz-interior-web/)**
+**[👉 Click acá para ver el sitio →](https://leandrocarpio.github.io/Libera-tu-luz-interior-web/)**
 
----
-
-## 📋 Tabla de Contenidos
-
-- [Descripción](#-descripción)
-- [Características](#-características)
-- [Tecnologías](#️-tecnologías)
-- [Arquitectura](#️-arquitectura)
-- [Instalación](#-instalación)
-- [Estructura del Proyecto](#-estructura-del-proyecto)
-- [Características Técnicas](#-características-técnicas)
-- [Imágenes Necesarias](#-imágenes-necesarias)
-- [Cómo Replicar](#-cómo-replicar-este-proyecto)
-- [Para Reclutadores](#-para-reclutadores)
-- [Autor](#-autor)
-- [Licencia](#-licencia)
+![Libera tu Luz Interior](assets/img/libera%20tu%20luz%20interior.png)
 
 ---
 
-## 🎯 Descripción
+## 🎯 ¿Qué es este proyecto?
 
-**Libera tu Luz Interior** es una landing page de alta conversión para venta de ebook de transformación personal desde el SER. Proyecto desarrollado para portfolio profesional, demostrando arquitectura CSS modular, diseño visual 80/20, psicología de colores aplicada y UX/UI optimizado para conversión.
+Landing page profesional diseñada como **embudo de ventas** para el ebook "Libera tu Luz Interior", enfocada en personas que buscan transformación personal y autoconocimiento.
 
-### Objetivos del Proyecto
+**Propuesta de valor:**
+- 📖 Ebook completo: 8 capítulos sobre transformación desde el SER
+- 🎁 2 bonos exclusivos (Cuaderno de Trabajo + Rutina 21 Días)
+- 💰 Precio: $14,999 ARS (75% de descuento)
+- ✅ Garantía de 30 días
 
-- **Para reclutadores:** Código limpio, arquitectura modular y buenas prácticas
-- **Para clientes:** Diseño persuasivo con alta tasa de conversión (80% visual / 20% texto)
-- **Para desarrolladores:** Código documentado y fácil de replicar
-
----
-
-## ✨ Características
-
-### Diseño y UX (Actualizado 2026)
-- ✅ Hero estilo product-page con mockup grande y precio destacado
-- ✅ Diseño visual 80/20 (80% imágenes, 20% texto)
-- ✅ Garantía 30 días destacada al inicio (no al final)
-- ✅ Sección Antes/Después visual potente
-- ✅ Diseño responsive mobile-first
-- ✅ Menú hamburguesa con overlay fullscreen
-- ✅ Smooth scroll entre secciones
-- ✅ Animaciones con IntersectionObserver
-
-### Funcionalidades
-- ✅ Sección Dolores (4 pain points con imágenes grandes)
-- ✅ Sección Antes/Después (comparación visual)
-- ✅ 8 Capítulos con íconos minimalistas
-- ✅ 2 Bonos Exclusivos (mockups visuales profesionales)
-- ✅ Testimonios con fotos (6+ reviews con imágenes reales)
-- ✅ FAQ con accordion (6 preguntas)
-- ✅ Timer de cuenta regresiva (reseteo diario automático)
-- ✅ CTA flotante (siempre visible en scroll)
-- ✅ Páginas legales actualizadas (Privacidad + Términos)
-
-### Conversión y Urgencia
-- ✅ Timer countdown hasta las 23:59:59 (3 ubicaciones estratégicas)
-- ✅ Badge descuento 75% (rojo vibrante, grande)
-- ✅ Desglose valor total ($60.000 → $14.999)
-- ✅ CTA rojo para compra (psicología de urgencia)
-- ✅ Garantía 30 días destacada arriba (no escondida)
-- ✅ Sellos de confianza (Mercado Pago, SSL)
-- ✅ Bonos "GRATIS HOY" con urgencia visual
-
-### Performance y SEO
-- ✅ Lazy loading de imágenes
-- ✅ CSS modular (5 archivos especializados)
-- ✅ JavaScript vanilla (sin jQuery)
-- ✅ Imágenes Unsplash temporales con URLs optimizadas
-- ✅ Meta tags completos
-- ✅ Preparado para Shopify
+**Público objetivo:**
+- Personas con ansiedad, dolores físicos sin explicación
+- Quienes buscan cambio real y autoconocimiento
+- Interesados en desarrollo espiritual y crecimiento personal
 
 ---
 
-## 🛠️ Tecnologías
+## ✨ Características Principales
+
+### 🎨 Diseño Premium
+- Hero visual con mockup del ebook
+- Paleta de colores cálidos (dorados, crema, bronce)
+- Tipografía elegante: Playfair Display + Poppins
+- Animaciones suaves al scroll
+
+### 🔄 Embudo de Ventas Optimizado
+1. **Problema** → Identifica dolores (ansiedad, vacío, automático)
+2. **Transformación** → Muestra beneficios y solución
+3. **Contenido** → Presenta 8 capítulos + bonos
+4. **Social Proof** → Testimonios reales con carousel
+5. **Oferta** → Precio con descuento + urgencia (timer)
+6. **Cierre** → CTA y garantía de devolución
+
+### 🎠 Testimonios con Bootstrap Carousel
+- 8 testimonios reales con fotos
+- Autoplay cada 5 segundos
+- Flechas doradas fuera de las cards (desktop)
+- Líneas de paginación (no puntitos)
+- Swipe táctil en mobile
+- Flechas ocultas en mobile (≤991px)
+
+### ⏱️ Timer de Urgencia
+- Countdown hasta fin del día
+- Se resetea automáticamente
+- 3 ubicaciones estratégicas (hero, oferta)
+
+### 📱 100% Responsive
+- Mobile-first approach
+- Menú hamburguesa animado
+- Adaptado a todos los dispositivos
+- Touch-friendly en móviles
+
+---
+
+## 🛠️ Stack Tecnológico
 
 ### Frontend
-- **HTML5** → Estructura semántica
-- **CSS3** → Variables, Flexbox, Grid, `clamp()`
-- **JavaScript ES6** → IIFE, eventos, timer
+- **HTML5** - Estructura semántica
+- **CSS3** - Estilos modulares y variables
+- **JavaScript** - Interacciones (sin módulos ES6)
+- **Bootstrap 5** - Carousel de testimonios
 
-### Framework/Librerías
-- **Bootstrap 5.3.0** → Grid, componentes
-- **Bootstrap Icons** → Iconografía
-- **Google Fonts** → Playfair Display + Poppins
+### Librerías
+- **Bootstrap Icons** - Iconos profesionales
+- **Google Fonts** - Playfair Display + Poppins
 
-### Servicios
-- **Unsplash** → Imágenes temporales de calidad
-- **Mercado Pago** → Procesador de pagos (Argentina)
-
-### Herramientas
-- **Git** → Control de versiones
-- **GitHub Pages** → Hosting gratuito
-
----
-
-## 🗂️ Arquitectura
-
-Arquitectura CSS modular optimizada para conversión:
-
-```
-index.html
-    │
-    ├─── CSS Modular (5 archivos)
-    │    ├── variables.css       → Colores, espaciados, sombras
-    │    ├── navbar.css          → Navegación desktop/mobile
-    │    ├── hero-visual.css     → Hero product-page (NUEVO)
-    │    ├── sections-visual.css → Todas las secciones visuales (NUEVO)
-    │    └── responsive.css      → Media queries
-    │
-    └─── JavaScript (2 archivos)
-         ├── ui.js               → Interfaz, navbar, FAQ, CTA flotante
-         └── timer.js            → Countdown diario (3 contadores)
-```
+### Características Técnicas
+- Arquitectura CSS modular (5 archivos separados)
+- JavaScript vanilla (sin dependencias)
+- Animaciones con Intersection Observer
+- Accordion FAQ nativo
+- Smooth scroll
 
 ---
 
-## 📦 Instalación
+## 📦 Instalación y Uso
 
-### Opción 1: Visualización Directa
+### Opción 1: Ver online
+Simplemente visitá: **[Demo en vivo →](https://leandrocarpio.github.io/Libera-tu-luz-interior-web/)**
+
+### Opción 2: Descargar localmente
 
 ```bash
+# Clonar repositorio
 git clone https://github.com/leandrocarpio/Libera-tu-luz-interior-web.git
+
+# Abrir con Live Server
 cd Libera-tu-luz-interior-web
-# Abrir index.html en el navegador
+# Click derecho en index.html → Open with Live Server
 ```
 
-> ✅ **Nota:** Funciona sin servidor (usa IIFE, no ES Modules)
-
-### Opción 2: Live Server (Recomendada)
-
-```bash
-git clone https://github.com/leandrocarpio/Libera-tu-luz-interior-web.git
-cd Libera-tu-luz-interior-web
-code .
-# Click derecho en index.html → "Open with Live Server"
-```
+**Requisitos:**
+- Navegador moderno (Chrome, Firefox, Safari, Edge)
+- Live Server (VS Code) o cualquier servidor local
 
 ---
 
-## 📁 Estructura del Proyecto
+## 🎨 Personalización Rápida
 
+### 1. Cambiar colores
+Editá `assets/css/variables.css`:
+
+```css
+:root {
+    --primary-gold: #C9A961;   /* Dorado principal */
+    --dark-gold: #A88B3D;       /* Dorado oscuro */
+    --light-cream: #FFF8E7;     /* Fondo claro */
+    --warm-white: #FFFEF9;      /* Blanco cálido */
+}
 ```
-libera-tu-luz-interior-web/
-│
-├── index.html                    # Página principal (ACTUALIZADA)
-├── politica-privacidad.html      # Página legal
-├── terminos-condiciones.html     # Página legal (ACTUALIZADA)
-├── README.md                     # Documentación (ACTUALIZADA)
-├── IMAGENES_NECESARIAS.md        # Listado imágenes + prompts (NUEVO)
+
+### 2. Actualizar testimonios
+Editá el carousel en `index.html` (línea ~435):
+
+```html
+<div class="carousel-item active">
+    <div class="testimonio-card-carousel">
+        <img src="TU_IMAGEN" alt="Nombre">
+        <p class="testimonio-texto">"Tu testimonio acá"</p>
+        <p class="testimonio-nombre-final">— Nombre, edad</p>
+    </div>
+</div>
+```
+
+### 3. Cambiar información de contacto
+- **Email:** Buscar `Liberatuluzinterior.guia@gmail.com` y reemplazar
+- **Instagram:** `https://www.instagram.com/liberatuluzinterior/`
+- **Facebook:** `https://www.facebook.com/liberatuluzinterior/`
+
+---
+
+## 📁 Arquitectura Modular
+
+### Estructura de archivos:
+```
+Libera-tu-Luz-Interior/
+├── index.html                      # Página principal
+├── politica-privacidad.html        # Términos legales
+├── terminos-condiciones.html       # Condiciones de compra
 │
 └── assets/
     ├── css/
-    │   ├── variables.css         # Variables globales
-    │   ├── navbar.css            # Navegación
-    │   ├── hero-visual.css       # Hero product-page (NUEVO)
-    │   ├── sections-visual.css   # Secciones visuales (NUEVO)
-    │   └── responsive.css        # Media queries
+    │   ├── variables.css           # Variables globales (colores, espaciados)
+    │   ├── navbar.css              # Navegación y menú hamburguesa
+    │   ├── hero-visual.css         # Hero section con mockup
+    │   ├── sections-visual.css     # Todas las secciones
+    │   └── responsive.css          # Media queries
     │
     ├── js/
-    │   ├── ui.js                 # Interfaz
-    │   └── timer.js              # Countdown
+    │   ├── timer.js                # Countdown hasta fin del día
+    │   └── ui.js                   # Navbar, scroll, FAQ, animaciones
     │
     └── img/
-        ├── Logo.png
-        ├── MP_RGB_HANDSHAKE_pluma_horizontal.png
-        │
-        ├── hero-mockup-ebook.png              # CREAR (800x1000px)
-        ├── garantia-30-dias-badge.png         # CREAR (400x400px)
-        │
-        ├── dolor-1-dolores-panza.jpg          # CREAR (600x800px)
-        ├── dolor-2-vida-automatico.jpg        # CREAR (600x800px)
-        ├── dolor-3-mente-no-para.jpg          # CREAR (600x800px)
-        ├── dolor-4-vacio-existencial.jpg      # CREAR (600x800px)
-        │
-        ├── antes-sobreviviendo.jpg            # CREAR (1200x800px)
-        ├── despues-viviendo.jpg               # CREAR (1200x800px)
-        │
-        ├── bono-1-cuaderno-mockup.png         # CREAR (600x800px)
-        ├── bono-2-rutina-21-dias-mockup.png   # CREAR (600x800px)
-        │
-        └── testimonios/
-            ├── testimonio-avatar-1.jpg        # CREAR (150x150px)
-            ├── testimonio-avatar-2.jpg        # CREAR (150x150px)
-            ├── testimonio-avatar-3.jpg        # CREAR (150x150px)
-            ├── testimonio-avatar-4.jpg        # CREAR (150x150px)
-            ├── testimonio-avatar-5.jpg        # CREAR (150x150px)
-            ├── testimonio-avatar-6.jpg        # CREAR (150x150px)
-            ├── review-foto-1.jpg              # CREAR (400x600px)
-            ├── review-foto-2.jpg              # CREAR (400x600px)
-            └── review-foto-3.jpg              # CREAR (400x600px)
+        ├── Logo.png                # Logo de la marca
+        ├── mockup hero.png         # Mockup del ebook (hero)
+        ├── libera tu luz interior.png  # Preview completo
+        ├── bono 1.png              # Imagen bono 1
+        ├── bono 2.png              # Imagen bono 2
+        ├── antes.png               # Imagen "antes"
+        ├── despúes.png             # Imagen "después"
+        ├── dolor de panza.png      # Dolor físico
+        ├── vacio.png               # Vacío existencial
+        ├── vivir en automático.png # Piloto automático
+        ├── mente.png               # Mente y pensamientos
+        └── MP_RGB_HANDSHAKE_pluma_horizontal.png  # Logo Mercado Pago
 ```
+
+### Por qué arquitectura modular:
+
+✅ **Escalabilidad** - Fácil agregar nuevas secciones  
+✅ **Mantenibilidad** - Cada archivo tiene una responsabilidad única  
+✅ **Colaboración** - Varios devs pueden trabajar sin conflictos  
+✅ **Performance** - Carga optimizada con preconnect  
+✅ **Organización** - Código limpio y profesional  
 
 ---
 
-## 🔥 Características Técnicas
+## 🌟 Secciones del Sitio
 
-### 1. Arquitectura CSS Modular
+### 🏠 Hero
+- Mockup visual del ebook
+- Precio con descuento destacado
+- Timer de urgencia
+- 3 beneficios quick
+- CTA principal
 
-5 archivos CSS especializados para mejor mantenimiento:
+### 😰 Dolores (Problemas)
+- 4 dolores identificados con imágenes
+- Conexión emocional con el usuario
+- Texto empático y directo
 
-```html
-<link rel="stylesheet" href="assets/css/variables.css">        <!-- Variables -->
-<link rel="stylesheet" href="assets/css/navbar.css">           <!-- Navbar -->
-<link rel="stylesheet" href="assets/css/hero-visual.css">      <!-- Hero -->
-<link rel="stylesheet" href="assets/css/sections-visual.css">  <!-- Secciones -->
-<link rel="stylesheet" href="assets/css/responsive.css">       <!-- Responsive -->
-```
+### ✨ Transformación (Beneficios)
+- 6 beneficios claros con íconos
+- Enfoque en el cambio real
+- Propuesta de valor
 
-### 2. Psicología de Colores
+### 📖 Ebook (Contenido)
+- 8 capítulos listados
+- Descripción breve de cada uno
+- Mockup grande del ebook
 
-```css
-:root {
-  --primary-gold: #C9A961;       /* Valor, lujo */
-  --dolor-red: #E53935;          /* Urgencia, acción */
-  --beneficio-green: #2E7D32;    /* Beneficios */
-  --purple-accent: #9B7EBD;      /* Espiritualidad */
-}
-```
+### 🎁 Bonos Exclusivos
+- 2 bonos con valor monetario
+- Badge de "GRATIS HOY"
+- Valor total tachado
 
-### 3. Timer de Cuenta Regresiva (3 ubicaciones)
+### 💬 Testimonios
+- Carousel Bootstrap con 8 testimonios
+- Fotos + estrellas + verificado
+- Autoplay + navegación manual
 
-Reseteo automático diario a las 23:59:59:
+### 🎯 Para Quién Es
+- Lista de "Es para vos si..."
+- Lista de "No es para vos si..."
+- Filtra audiencia correcta
 
-- Hero (junto al precio)
-- Sección Bonos (urgencia)
-- Oferta Final (último empujón)
+### 💰 Oferta
+- Desglose de valor ($60,000 → $14,999)
+- Badge 75% descuento
+- Timer de urgencia
+- Sellos de confianza
+- CTA rojo de alta conversión
 
+### ❓ FAQ
+- Accordion con 5 preguntas frecuentes
+- Respuestas claras y directas
+
+### 📬 Contacto
+- Email visible
+- Redes sociales
+- Enlaces a políticas
+
+---
+
+## 💡 Características Técnicas Destacadas
+
+### Carousel de Testimonios (Bootstrap 5)
 ```javascript
-function updateCountdown() {
-    const now = new Date();
-    const endOfDay = new Date();
-    endOfDay.setHours(23, 59, 59, 999);
-    const diff = endOfDay - now;
-    // Formato HH:MM:SS
-}
-setInterval(updateCountdown, 1000);
+// Configuración en HTML
+data-bs-ride="carousel"       // Autoplay activado
+data-bs-interval="5000"       // 5 segundos
+data-bs-pause="hover"         // Pausa al hover
 ```
 
-### 4. Diseño Visual 80/20
+**Responsive:**
+- Desktop: Flechas visibles fuera (left: -60px, right: -60px)
+- Mobile: Flechas ocultas, solo swipe táctil
 
-- 80% comunicación por imágenes
-- 20% texto (solo esencial)
-- Inspirado en páginas de Shopify que convierten
-- Testimonios con fotos reales (no solo texto)
+**Paginación:**
+- Líneas horizontales (no puntitos)
+- Inactiva: 30px × 3px (gris)
+- Activa: 45px × 3px (dorado)
 
-### 5. CTA Flotante
-
-- Aparece al hacer scroll
-- Siempre visible (mobile + desktop)
-- Texto urgencia + botón directo a oferta
-
----
-
-## 📸 Imágenes Necesarias
-
-**TOTAL: 19 imágenes a crear**
-
-Ver archivo completo: **[IMAGENES_NECESARIAS.md](IMAGENES_NECESARIAS.md)**
-
-### Resumen por categoría:
-
-| Categoría | Cantidad | Tamaño | Herramienta |
-|-----------|----------|--------|-------------|
-| **Hero mockup** | 1 | 800x1000px | Canva/Photoshop |
-| **Dolores** | 4 | 600x800px | IA (Midjourney/DALL-E) |
-| **Antes/Después** | 2 | 1200x800px | IA (Midjourney/DALL-E) |
-| **Bonos** | 2 | 600x800px | Canva |
-| **Avatares** | 6 | 150x150px | IA (Midjourney/DALL-E) |
-| **Reviews** | 3 | 400x600px | Canva (mockup celular) |
-| **Badge** | 1 | 400x400px | Canva |
-
-**Actualmente:** Todas las imágenes usan placeholders de Unsplash.
-
----
-
-## 🎨 Cómo Replicar este Proyecto
-
-### 1. Clonar
-
-```bash
-git clone https://github.com/leandrocarpio/Libera-tu-luz-interior-web.git
-cd Libera-tu-luz-interior-web
+### Timer Countdown
+```javascript
+// Se resetea cada día a las 23:59:59
+// 3 instancias sincronizadas
+// Formato: HH:MM:SS
 ```
 
-### 2. Personalizar Colores
-
-```css
-/* assets/css/variables.css */
-:root {
-  --primary-gold: #TU_COLOR;
-  --dolor-red: #TU_COLOR;
-}
+### Animaciones al Scroll
+```javascript
+// Intersection Observer
+// Clase .fade-in se activa al entrar en viewport
+// Threshold: 0.1 (10% visible)
 ```
 
-### 3. Crear Imágenes
+---
 
-Ver **[IMAGENES_NECESARIAS.md](IMAGENES_NECESARIAS.md)** para:
-- Nombres exactos de archivo
-- Tamaños y formatos
-- Prompts para IA
-- URLs temporales Unsplash
+## 🚀 Embudo de Ventas
 
-### 4. Reemplazar Imágenes
+### Flujo de Conversión:
+```
+1. ATRACCIÓN (Hero)
+   └→ Promesa clara + Mockup visual + Precio
 
-Una vez creadas, reemplazar en `index.html`:
-- Buscar comentarios `<!-- REEMPLAZAR POR: ... -->`
-- Cambiar URL Unsplash por tu archivo local
+2. IDENTIFICACIÓN (Dolores)
+   └→ "¿Te sentís identificado/a con esto?"
 
-### 5. Actualizar Contenido
+3. SOLUCIÓN (Transformación)
+   └→ Beneficios concretos del cambio
 
-- **Precio:** Buscar `$14.999` y ajustar
-- **Bonos:** Actualizar nombres y valores
-- **Testimonios:** Cambiar nombres, países, textos
-- **FAQ:** Ajustar preguntas según tu producto
+4. CONTENIDO (Ebook + Bonos)
+   └→ Qué incluye + Valor agregado
 
-### 6. Preparar para Shopify
+5. PRUEBA SOCIAL (Testimonios)
+   └→ 8 personas reales con resultados
 
-Esta landing está diseñada para replicarse en Shopify:
-- Copiar HTML secciones
-- Adaptar CSS a theme de Shopify
-- Integrar Mercado Pago
+6. FILTRO (Para Quién)
+   └→ Califica al usuario correcto
+
+7. URGENCIA (Oferta + Timer)
+   └→ Descuento limitado + Tiempo
+
+8. OBJECIONES (FAQ)
+   └→ Responde dudas comunes
+
+9. CIERRE (CTA Final)
+   └→ Última oportunidad de conversión
+```
 
 ---
 
-## 💡 Para Reclutadores
+## 📊 Optimizaciones Aplicadas
 
-### Buenas Prácticas Implementadas
+✅ **SEO:**
+- Meta description optimizada
+- Títulos H1, H2 semánticos
+- Alt text en todas las imágenes
 
-✅ **Arquitectura CSS Modular**
-- 5 archivos especializados (variables, navbar, hero, sections, responsive)
-- Variables CSS reutilizables
-- Código escalable y mantenible
+✅ **Performance:**
+- Preconnect a Google Fonts y CDN
+- Imágenes optimizadas
+- CSS minificado en variables
 
-✅ **Clean Code**
-- Nombres semánticos descriptivos
-- Comentarios útiles (no obvios)
-- Funciones con responsabilidad única (IIFE)
+✅ **UX/UI:**
+- Scroll suave entre secciones
+- Hover states en todos los botones
+- Feedback visual en interacciones
 
-✅ **Diseño para Conversión**
-- Estructura basada en análisis de páginas que venden (Shopify)
-- Diseño visual 80/20 (imágenes > texto)
-- Psicología de colores aplicada
-- Urgencia sin ser spam
-
-✅ **Performance**
-- Lazy loading de imágenes
-- JavaScript vanilla (sin jQuery)
-- Imágenes optimizadas (WebP ready)
-
-✅ **Responsive Mobile-First**
-- Touch targets 44px+
-- Layout adaptativo
-- Menú hamburguesa profesional
-- Tipografía fluida con `clamp()`
-
-✅ **UX/UI Profesional**
-- Jerarquía visual clara
-- CTA flotante siempre visible
-- Garantía destacada (no escondida)
-- Testimonios con fotos (credibilidad)
+✅ **Conversión:**
+- CTAs estratégicos (7 ubicaciones)
+- Urgencia con timer real
+- Social proof con testimonios
+- Garantía de devolución
 
 ---
 
-### Decisiones Técnicas
+## 🌐 Redes Sociales
 
-**¿Por qué diseño visual 80/20?**
-→ Análisis de páginas Shopify que convierten: las personas compran con imágenes, no con texto largo
-
-**¿Por qué CTA rojo vs. dorado?**
-→ Dorado = valor/lujo (producto), Rojo = urgencia/acción (compra ahora)
-
-**¿Por qué garantía arriba vs. al final?**
-→ Reduce fricción inmediata, aumenta confianza desde el inicio
-
-**¿Por qué 3 timers diferentes?**
-→ Refuerzo de urgencia en puntos clave: hero, bonos, oferta final
-
-**¿Por qué testimonios con fotos?**
-→ Credibilidad 3x mayor que solo texto (estudio ConversionXL 2023)
+- 📸 **Instagram:** [@liberatuluzinterior](https://www.instagram.com/liberatuluzinterior/)
+- 👥 **Facebook:** [Libera tu Luz Interior](https://www.facebook.com/liberatuluzinterior/)
 
 ---
 
 ## 👨‍💻 Autor
 
 **Leandro Carpio**  
-Frontend Developer | Landing Pages de Alta Conversión
+Frontend Developer | Especializado en Landing Pages de Alta Conversión
 
 - 📧 **Email:** leo_gabriel_carpio@hotmail.com
-- 📱 **WhatsApp:** [+54 9 261 612-3777](https://wa.me/5492616123777)
+- 📱 **WhatsApp:** [+54 261 612-3777](https://wa.me/5492616123777)
 - 💼 **LinkedIn:** [linkedin.com/in/leandrocarpio](https://www.linkedin.com/in/leandrocarpio)
-- 🌐 **GitHub:** [@leandrocarpio](https://github.com/leandrocarpio)
+- 🌐 **GitHub:** [@Leandrocarpio](https://github.com/Leandrocarpio)
 
 ---
 
-### ¿Necesitás una landing profesional para tu negocio?
+## 📄 Licencia y Uso
 
-Desarrollo landing pages optimizadas para conversión:
-- ✅ Diseño responsive mobile-first
-- ✅ Arquitectura modular escalable
-- ✅ Diseño visual 80/20 (imágenes > texto)
-- ✅ Optimización para Shopify/ecommerce
-- ✅ Integración Mercado Pago Argentina
-
-📩 **Contactame:** [WhatsApp](https://wa.me/5492616123777?text=Hola,%20vi%20tu%20proyecto%20Libera%20tu%20Luz%20Interior%20y%20me%20interesa%20tu%20servicio)
+Este proyecto es un trabajo profesional de portfolio. Si te inspirás o usás partes del código, agradecería una mención. 🙏
 
 ---
 
-## 📄 Licencia
+**Libera tu Luz Interior** © 2026 - Desarrollado con ❤️ por Leandro Carpio
 
-Este proyecto está bajo la **Licencia MIT**.
-
-Ver [LICENSE](LICENSE) para más detalles.
-
----
-
-<div align="center">
-
-### ⭐ Si te gustó este proyecto, dale una estrella en GitHub
-
-**Libera tu Luz Interior** © 2026 - Diseñado y desarrollado por **Leandro Carpio**
-
-**Versión:** 2.0 Visual (Febrero 2026)  
-**Actualización:** Diseño 80/20 optimizado para conversión
-
-[⬆️ Volver arriba](#-libera-tu-luz-interior---landing-page-de-alta-conversión)
-
-</div>
+[⬆️ Volver arriba](#-libera-tu-luz-interior---landing-page-ebook)
